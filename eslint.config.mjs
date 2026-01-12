@@ -14,7 +14,7 @@ const eslintConfig = defineConfig([
     '*.config.*',
   ]),
   {
-    basePath: 'src',
+    basePath: 'app',
     rules: {
       'prefer-const': 'error',
     },
